@@ -1,0 +1,19 @@
+<div class="container">
+
+    <h1>Galería de películas</h1>
+
+    <hr>
+
+    <div class="row">
+        {{#each movies}}
+
+        <div class="col-md-3 mb-3">
+            <figure class="movie-card ">
+                <img src="{{imageUrl}}" alt="{{title}}">
+                <figcaption>{{title}}</figcaption>
+            </figure>
+        </div>
+
+        {{/each}}
+    </div>
+</div>

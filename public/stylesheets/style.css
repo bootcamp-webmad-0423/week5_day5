@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+.movie-card {
+  text-align: center;
+}
